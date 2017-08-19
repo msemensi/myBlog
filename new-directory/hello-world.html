@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<link type='text/css' rel='stylesheet' href='../pages/styles/main.css' />
+<meta charset="utf-8">
+<title>Hello...</title>
+</head>
+
+<body>
+	<div id="mainContent">
+		<p id="helloText">Hey Girl</p>
+		<button id="clickButton" class="buttonStyle">click me</button>
+		<div id="FlexContainer">
+			<p>About</p>
+			<p>Contact</p>
+			<p>Sign In</p>
+		</div>
+	</div>
+<script> 
+var myButton = document.getElementById("clickButton");
+var myText = document.getElementById("helloText");
+
+myButton.addEventListener('click', doSomething, false)
+
+function doSomething() {
+	myText.textContent = "hello, MIKE!!";
+}
+</script>
+
+</body>
+</html>
