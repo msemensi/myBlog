@@ -10,6 +10,6 @@ gift = [
           "a medium-sized island off the coast of Sumatra",
           "a visual prosthesis",
           "a house in the Castro",
-          "a milk jug,"
+          "a milk jug and coffee,"
          ]
   puts "All I got for valentine's day was #{gift.sample}."
